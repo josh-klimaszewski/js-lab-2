@@ -16,7 +16,8 @@ function startCombat() {
         grantHealth = 10;
       }
     } else {
-      break;
+      console.log("You ran away!");
+      return;
     }
   } if (userHealth < 1) {
     console.log(user + " lost!");
